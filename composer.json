@@ -1,0 +1,28 @@
+{
+    "name": "neto-castro/api_vtes",
+    "description": "Api feita em PHP para cartas de VTES",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "src/Core/Config.php",
+            "src/Core/Functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Neto Castro",
+            "email": "netocastrotec@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "stonks/datalayer": "^1.0",
+        "stonks/router": "^1.0",
+        "coffeecode/uploader": "^1.0",
+        "league/plates": "4.0.0-alpha"
+    }
+}

@@ -1,0 +1,33 @@
+*{
+      padding: 0;
+      margin: 0;
+}
+.nav-back{
+      background-image: url('../../cdn/media/images/site/navbar/vtes_navbar_background.jpg');
+      color: blue;
+}
+
+#img-navbar{
+      width: 25%;
+}
+
+//#background-login{
+//      background-image: url('../../cdn/media/images/site/backgrounds/vtes_background.jpg');
+//      background-repeat: no-repeat;
+//      background-size: 100% 100vh;
+//}
+
+.tr{
+      height: 10px;
+      font-size: 12px;
+}
+
+#myTabContent{
+      box-sizing: border-box;
+      border: 1px solid white;
+}
+
+.trash{
+      height: 50px;
+      border: 1px solid #ccc;
+}

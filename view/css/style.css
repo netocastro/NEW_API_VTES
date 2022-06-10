@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0 !important;
+}
+
+body.modal-open {
+  padding: 0 !important;
+}
+
+.no-spaces {
+  font-family: Teko;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.nav-back {
+  background-image: url("../../cdn/media/images/site/navbar/vtes_navbar_background.jpg");
+  color: blue;
+}
+
+#img-navbar {
+  width: 25%;
+}
+
+.tr {
+  height: 10px;
+  font-size: 12px;
+}
+
+#myTabContent {
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+.trash {
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+#load-card-image {
+  /*background:url('./../../cdn/media/images/cardImages/44magnum.jpg')
+  background: blank;*/
+}

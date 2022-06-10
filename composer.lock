@@ -1,0 +1,258 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9329b7d421e3474efe92d14a8bc971c8",
+    "packages": [
+        {
+            "name": "coffeecode/uploader",
+            "version": "1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/uploader.git",
+                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
+                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "ext-gd": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\Uploader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tiago Chini",
+                    "email": "tiago.chini@hotmail.com",
+                    "role": "collaborator"
+                }
+            ],
+            "description": "It is a easy PHP upload manager for images, files and media in your application",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "Image upload",
+                "file upload",
+                "media upload",
+                "upinside",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/uploader/issues",
+                "source": "https://github.com/robsonvleite/uploader/tree/1.0.11"
+            },
+            "time": "2021-03-21T18:57:41+00:00"
+        },
+        {
+            "name": "league/plates",
+            "version": "v4.0.0-alpha",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+                "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "eloquent/phony-peridot": "^2.0",
+                "peridot-php/leo": "^1.6",
+                "peridot-php/peridot": "^1.19",
+                "peridot-php/peridot-code-coverage-reporters": "^3.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Template/match.php",
+                    "src/Extension/Data/data.php",
+                    "src/Extension/Path/path.php",
+                    "src/Extension/RenderContext/func.php",
+                    "src/Extension/RenderContext/render-context.php",
+                    "src/Extension/LayoutSections/layout-sections.php",
+                    "src/Extension/Folders/folders.php",
+                    "src/Util/util.php"
+                ],
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "RJ Garcia",
+                    "email": "rj@bighead.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "http://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/plates/issues",
+                "source": "https://github.com/thephpleague/plates/tree/master"
+            },
+            "time": "2018-01-31T07:20:23+00:00"
+        },
+        {
+            "name": "stonks/datalayer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovannialo/datalayer.git",
+                "reference": "10a0dbe107a35fccfc60c66d0e287e92c6d13060"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovannialo/datalayer/zipball/10a0dbe107a35fccfc60c66d0e287e92c6d13060",
+                "reference": "10a0dbe107a35fccfc60c66d0e287e92c6d13060",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stonks\\DataLayer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni A. L. Oliveira",
+                    "email": "giovanni.al.oliveira@gmail.com",
+                    "homepage": "https://github.com/giovannialo",
+                    "role": "Developer"
+                }
+            ],
+            "description": "O DataLayer é um componente para abstração de persistência para banco de dados, que usa PDO com prepared statements.",
+            "homepage": "https://github.com/giovannialo/datalayer",
+            "keywords": [
+                "Stonks",
+                "crud",
+                "database",
+                "delete",
+                "destroy",
+                "pdo",
+                "save"
+            ],
+            "support": {
+                "issues": "https://github.com/giovannialo/datalayer/issues",
+                "source": "https://github.com/giovannialo/datalayer/tree/1.0.2"
+            },
+            "time": "2021-01-29T03:27:19+00:00"
+        },
+        {
+            "name": "stonks/router",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giovannialo/router.git",
+                "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giovannialo/router/zipball/089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+                "reference": "089d09fe445bfa483f14a2269d1360ac65ddb4d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stonks\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giovanni A. L. Oliveira",
+                    "email": "giovanni.al.oliveira@gmail.com",
+                    "homepage": "https://github.com/giovannialo",
+                    "role": "Developer"
+                }
+            ],
+            "description": "O Router é um componente de rotas PHP com abstração para MVC. Preparado com verbos RESTful (GET, POST, PUT, PATCH e DELETE), ele trabalha em sua própria camada de forma isolada.",
+            "homepage": "https://github.com/giovannialo/router",
+            "keywords": [
+                "Stonks",
+                "route",
+                "router",
+                "routers",
+                "routes"
+            ],
+            "support": {
+                "issues": "https://github.com/giovannialo/router/issues",
+                "source": "https://github.com/giovannialo/router/tree/1.0.1"
+            },
+            "time": "2020-10-08T19:51:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "league/plates": 15
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
